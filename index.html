@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiga Tungku</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#"><h1>Tigatungku</h1></a>
+        <div class="nav-menu">
+            <ul>
+				<li><a href="#">Catalog</a></li>
+				<li><a href="#">Order</a></li>
+				<li><a href="#">Promo</a></li>
+				<li><a href="#">Testimoni</a></li>
+				<li><a href="#">Profile</a></li>
+			</ul>
+        </div>
+    </nav>
+
+    <div class="hero-container">
+        <div>
+            <div>
+                <p><a href="#" class="link">Tigatungku.com</a></p>
+                <h1>Kue Enak BEBAS Gluten</h1>
+                <button class="btn-order">Order Now!</button>
+            </div>
+        </div>
+        <img src="assets/logo.png" alt="hero">
+    </div>
+
+    <section class="description-container">
+        <div>
+            <div>
+                <p>Kue Enak <b>BEBAS Gluten</b> 
+                <p>menggunakan <b>Tepung Lokal</b></p>
+                <p><b>Tanpa MSG - Pewarna - Pengawet</b></p></p>
+            </div>
+            <a href="https://linktr.ee/tigatungku_"><button class="btn">More About Us</button></a>
+        </div>
+    </section>
+    <section class="content-container">
+        <div class="card">
+            <img src="assets/pic1.png" alt="card1">
+            <div class="card-body">
+                <h3>Teman Hidangan
+                    Sehat Sore Kamu</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/pic2.png" alt="card2">
+            <div class="card-body">
+                <h3>Cocok untuk segala
+                    Acara Kamu</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/pic3.png" alt="card3">
+            <div class="card-body">
+                <h3>Sehat. Manis. Lokal</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><b>Tigatungku</b> © 2022 </p>
+        <div>
+            <a href="https://www.instagram.com/tigatungku_/"><img src="assets/instagram.svg" alt="instagram" href></a>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("nav");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>
